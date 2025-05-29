@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Facebook Chatbot App</title>
+  <title>MiniChat Seller</title>
   <style>
     body {
       font-family: 'Arial', sans-serif;
@@ -19,42 +19,49 @@
       padding: 2rem;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
     }
     h1 {
       color: #1877f2;
+      margin-top: 1rem;
     }
-    p {
+    p, li {
       line-height: 1.6;
+      text-align: left;
     }
-    code {
-      background-color: #eee;
-      padding: 2px 4px;
-      border-radius: 4px;
+    img.icon {
+      width: 120px;
+      height: 120px;
+      object-fit: contain;
+    }
+    ul {
+      text-align: left;
     }
   </style>
 </head>
 <body>
   <div class="container">
+    <img src="icon.png" alt="App Icon" class="icon" />
     <h1>MiniChat Seller</h1>
-    <p><strong>App Description:</strong></p>
-    <p>This chatbot is designed to automatically respond to customer inquiries on our Facebook Page using Facebook Messenger.</p>
 
-    <p><strong>Key Details:</strong></p>
+    <p><strong>📌 App Description (TH):</strong></p>
+    <p>แอปแชทบอทนี้ถูกออกแบบมาเพื่อใช้ตอบกลับข้อความของลูกค้าโดยอัตโนมัติผ่าน Facebook Messenger ของเพจ</p>
+
+    <p><strong>📌 รายละเอียด (Details):</strong></p>
     <ul>
-      <li>Platform: Facebook Messenger only</li>
-      <li>No login functionality for users</li>
-      <li>No installation required</li>
-      <li>Uses webhook to receive and respond to messages</li>
-      <li>Accesses only required permissions: <code>pages_messaging</code>, <code>pages_manage_metadata</code></li>
+      <li>แพลตฟอร์ม: Facebook Messenger เท่านั้น</li>
+      <li>ไม่มีระบบล็อกอินหรือให้ผู้ใช้ติดตั้งแอป</li>
+      <li>ทำงานผ่าน Webhook เชื่อมต่อกับ Messenger</li>
+      <li>สิทธิ์ที่ใช้: <code>pages_messaging</code>, <code>pages_manage_metadata</code></li>
     </ul>
 
-    <p><strong>Purpose of the App:</strong></p>
-    <p>To assist customers by providing real-time automated chat support for product inquiries, order tracking, and general FAQs via Messenger.</p>
+    <p><strong>🎯 วัตถุประสงค์ของแอป:</strong></p>
+    <p>เพื่อช่วยตอบคำถามลูกค้าแบบเรียลไทม์ เช่น การสอบถามสินค้า ติดตามสถานะคำสั่งซื้อ และตอบคำถามทั่วไป</p>
 
-    <p><strong>Data Handling:</strong></p>
-    <p>This app does not collect, store, or share any personal data beyond what is required for Messenger communication. It complies with Facebook's Platform Terms and applicable data privacy regulations.</p>
+    <p><strong>🔐 การจัดการข้อมูล:</strong></p>
+    <p>แอปนี้ไม่มีการเก็บหรือส่งต่อข้อมูลส่วนตัวของผู้ใช้นอกเหนือจากที่จำเป็นในการตอบข้อความผ่าน Messenger และเป็นไปตามข้อกำหนดของ Facebook Platform และกฎหมายที่เกี่ยวข้อง</p>
 
-    <p>For any inquiries, please contact: <a href="mailto:alongkorn.wongvisate@gmail.com">alongkorn.wongvisate@gmail.com</a></p>
+    <p><strong>📧 ติดต่อ:</strong> <a href="mailto:alongkorn.wongvisate@gmail.com">alongkorn.wongvisate@gmail.com</a></p>
   </div>
 </body>
 </html>
